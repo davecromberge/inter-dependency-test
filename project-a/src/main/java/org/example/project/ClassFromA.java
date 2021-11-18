@@ -1,12 +1,8 @@
-package org.example.project.b;
+package org.example.project;
 
-import org.example.project.a.ClassFromA;
-
-public class ClassFromB
+public class ClassFromA
 {
-  public ClassFromB() {
-    new ClassFromA();
-  }
+  public ClassFromA() {}
 
   @Override
   public String toString()

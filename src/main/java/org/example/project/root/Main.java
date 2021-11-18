@@ -1,6 +1,6 @@
 package org.example.project.root;
 
-import org.example.project.b.ClassFromB;
+import org.example.project.ClassFromB;
 
 public class Main
 {

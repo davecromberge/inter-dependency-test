@@ -1,8 +1,10 @@
-package org.example.project.a;
+package org.example.project;
 
-public class ClassFromA
+public class ClassFromB
 {
-  public ClassFromA() {}
+  public ClassFromB() {
+    new ClassFromA();
+  }
 
   @Override
   public String toString()
